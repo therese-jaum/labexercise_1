@@ -1,0 +1,96 @@
+body {
+    font-family: Roboto;
+    font-size: 16px;
+    background-image: url(./background/bisu.jpg);
+    background-size: cover;
+}
+
+.container {
+    width: 1024px;
+    margin: auto;
+    border-radius: 5px;
+    border-width: 1px solid #bbbbbb;
+    background-color: #dddddd;
+    padding: 10px;
+}
+/*NAVIGATION*/
+nav {
+    width: 100%;
+    text-align: right;
+}
+
+.navigation-menu {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.navigation-menu li {
+    margin-left: 2px;
+    text-align: center;
+}
+
+.navigation-menu li a {
+    display: block;
+    float: left;
+    width: 100px;
+    padding: 5px;
+    border: 1px solid white;
+    background-color: #597aed;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.navigation-menu li a:hover {
+    background-color: #1226ed;
+    color: white;
+}
+/*FORM*/
+input {
+    width: 240px;
+}
+
+form {
+    display: flex;
+    justify-content: flex-end;
+}
+/*ASIDE*/
+aside {
+    float: inline-end;
+    width: 25%;
+    margin: 0;
+    margin-right: 0;
+    margin-left: 1%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #bbbbbb;
+}
+
+.related-links li a {
+    display: flex;
+    justify-content: flex-start;
+}
+
+article {
+    text-align: justify;
+}
+/*FOOTER*/
+footer {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #bbbbbb;
+    padding: 10px;
+    font-size: 0.8em;
+}
+
+footer div {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+footer p {
+    text-align: center;
+    margin: 0;
+}
